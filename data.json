@@ -25,6 +25,18 @@
           "name": "Ideas Festival"
         }
       ]
+    },
+    {
+      "name": "tangible product prototype that needs support",
+      "children": [
+        {
+          "name": "the product is...",
+          "children": [
+            { "name": "done" },
+            { "name": "almost done "}
+          ]
+        }
+      ]
     }
   ]
 }

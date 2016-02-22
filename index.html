@@ -3,7 +3,7 @@
 <body>
     <div id="fullScreen"></div>
 </body>
-<script src="./files/d3.v3.min.js"></script>
+<script src="./d3.v3.min.js"></script>
 
 <script>
 
@@ -26,7 +26,7 @@ var svg = d3.select('#fullScreen').append('svg')
   .style("height", height + margin.top + margin.bottom)
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("./files/data.json", function(error, flare) {
+d3.json("./data.json", function(error, flare) {
   if (error) throw error;
 
   root = flare;
